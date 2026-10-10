@@ -39,7 +39,7 @@ export default function Hero() {
           <div className="absolute -left-3 -top-3 h-full w-full rounded-3xl bg-blue-100" />
 
           <img
-            src="/images/IMG_20250430_155138.jpg"
+            src="./public/images/IMG_20250430_155138.jpg"
             alt="Fernando Bueno"
             className="relative aspect-square w-full rounded-3xl object-contain shadow-xl"
           />
