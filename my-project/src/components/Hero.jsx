@@ -5,21 +5,29 @@ const services = [
   {
     title: "Desarrollo Web",
     description: "Sitios web modernos y funcionales.",
-    href: "/desarrollo-web",
+    href: "https://luisfernandobueno.github.io/DesarrolloWeb/",
     style:
-      "bg-slate-900 text-white hover:bg-slate-700",
+      "border border-slate-300 text-slate-800 hover:bg-slate-100",
   },
   {
     title: "Diseño de CV",
     description: "CV profesionales y estratégicos.",
     href: "https://luisfernandobueno.github.io/CVDesign/",
     style:
-      "bg-blue-600 text-white hover:bg-blue-700",
+      "border border-slate-300 text-slate-800 hover:bg-slate-100",
   },
   {
     title: "Diseño Gráfico",
     description: "Diseños visuales para comunicar mejor.",
     href: "/diseno-grafico",
+    style:
+      "border border-slate-300 text-slate-800 hover:bg-slate-100",
+  },
+
+  {
+    title: "Tutoría de Inglés",
+    description: "Tutorias en el idioma inglés para niños, adolescentes y adultos.",
+    href: "https://luisfernandobueno.github.io/ingles/",
     style:
       "border border-slate-300 text-slate-800 hover:bg-slate-100",
   },
@@ -62,8 +70,8 @@ export default function Hero() {
         </h1>
 
         <p className="mt-4 max-w-xl text-base leading-relaxed text-slate-600 lg:text-lg">
-          Desarrollo web, diseño de CV y diseño gráfico.
-          Ofrezco soluciones digitales y visuales pensadas
+          Desarrollo web, diseño de CV, diseño gráfico y apoyo en idioma inglés.
+          Ofrezco soluciones pensadas
           para comunicar mejor, destacar tu potencial y
           dar forma a tus proyectos.
         </p>
